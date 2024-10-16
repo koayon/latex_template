@@ -1,0 +1,133 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{styles/iclr2025_conference,times}
+
+% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+\input{styles/math_commands}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+% \usepackage{hyperref}       % hyperlinks
+% \usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{doi}
+\usepackage{amssymb}
+% Sandy added
+% \usepackage{todonotes}
+\usepackage{amsmath}
+\usepackage{appendix}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{import}
+\usepackage{cleveref}
+\usepackage{hyperref}
+\usepackage{url}
+
+\title{ENTER TITLE HERE}
+
+\author{{\hspace{1mm}Kola Ayonrinde} \\
+        MATS \\
+	\texttt{koayon@gmail.com} \\
+}
+
+% Authors must not appear in the submitted version. They should be hidden
+% as long as the \iclrfinalcopy macro remains commented out below.
+% Non-anonymous submissions will be rejected without review.
+
+% \author{Antiquus S.~Hippocampus, Natalia Cerebro \& Amelie P. Amygdale \thanks{ Use footnote for providing further information
+% about author (webpage, alternative address)---\emph{not} for acknowledging
+% funding agencies.  Funding acknowledgements go at the end of the paper.} \\
+% Department of Computer Science\\
+% Cranberry-Lemon University\\
+% Pittsburgh, PA 15213, USA \\
+% \texttt{\{hippo,brain,jen\}@cs.cranberry-lemon.edu} \\
+% \And
+% Ji Q. Ren \& Yevgeny LeNet \\
+% Department of Computational Neuroscience \\
+% University of the Witwatersrand \\
+% Joburg, South Africa \\
+% \texttt{\{robot,net\}@wits.ac.za} \\
+% \AND
+% Coauthor \\
+% Affiliation \\
+% Address \\
+% \texttt{email}
+% }
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+\iclrfinalcopy % Uncomment for camera-ready version, but NOT for submission.
+\begin{document}
+
+
+\maketitle
+% \thispagestyle{fancy}
+
+\begin{abstract}
+ENTER ABSTRACT HERE
+\end{abstract}
+
+
+\section{Introduction}
+\label{sec:intro}
+\import{paper_sections/}{introduction.tex}
+
+\section{Related Work}
+\label{sec:related_work}
+\import{paper_sections/}{related_work.tex}
+
+\section{Background}
+\label{sec:background}
+\import{paper_sections/}{background.tex}
+
+\section{Methods}
+\label{sec:methods}
+\import{paper_sections/}{methods.tex}
+
+\hypertarget{setup}{%
+\section{Experimental Setup}\label{setup}}
+\import{paper_sections/}{experimental_setup.tex}
+
+\section{Results}
+\label{sec:results}
+\import{paper_sections/}{results.tex}
+
+\hypertarget{discussion}{%
+\section{Discussion}\label{discussion}}
+\import{paper_sections/}{discussion.tex}
+
+\hypertarget{conclusion}{%
+\section{Conclusion}\label{conclusion}}
+\import{paper_sections/}{conclusion.tex}
+
+% \hypertarget{acknowledgments}{%
+% \subsubsection*{Acknowledgments}\label{acknowledgments}}
+% \import{paper_sections/}{acknowledgements.tex}
+
+\newpage
+
+\bibliography{references}
+\bibliographystyle{styles/iclr2025_conference}
+
+\newpage
+\appendix % This command starts the appendix section
+% \appendixpage
+
+\hypertarget{appendix1}{%
+\section{Appendix 1}\label{appendix1}}
+\import{paper_sections/}{appendix_1.tex}
+
+\end{document}
