@@ -5,6 +5,7 @@ This repository contains a LaTeX template for empirical machine learning papers.
 ## Acknowledgements
 
 The advice here is based on the following resources:
+
 - ...
 
 I'm also inspired by my wonderful co-authors Lee Sharkey and Michael Pearce as well as the many other people who have given me feedback on my writing.
@@ -12,6 +13,7 @@ I'm also inspired by my wonderful co-authors Lee Sharkey and Michael Pearce as w
 ## Reference Papers
 
 Some reference papers to look at for inspiration include:
+
 - [OpenAI's SAEs](https://cdn.openai.com/papers/sparse-autoencoders.pdf)
 - [Jump-ReLU SAEs](https://arxiv.org/pdf/2407.14435)
 - [GPT-Q](https://arxiv.org/pdf/2210.17323)
