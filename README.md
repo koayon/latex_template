@@ -38,7 +38,7 @@ Paper Timeline:
 1. Collect some notes on the idea and start talking with collaborators
 2. Do some initial validating experiments
 3. Write the abstract and introduction and share these with collaborators
-4. Write out a paper outline with collaborators (a whiteboard session is best for this)
+4. Write out a paper outline with collaborators (a whiteboard session is best for this). You can use `outline.md` to host this.
 5. Complete experiments whilst drafting the paper using the GitHub UI
 6. Do at least one round of edits for each section with the context of the rest of the paper
 7. Share with beta-readers for feedback and do another round of edits
