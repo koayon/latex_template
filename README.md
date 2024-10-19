@@ -1,6 +1,8 @@
 # LaTeX Template for Empirical ML Papers
 
-This repository contains a LaTeX template for empirical machine learning papers. It's set up so that you can focus on writing the content of your paper, rather than worrying about formatting and provides some opinionated advice for how to structure and conceptualise your paper.
+This repository contains a LaTeX template for empirical machine learning papers.
+The repo is set up so that you can focus on writing the content of your paper, rather than worrying about formatting.
+We also provide some opinionated guidelines for how to structure and conceptualise your paper.
 
 This template should help you effectively and efficiently achieve narrative structure, clarity and coherence.
 Ideally you'd also like your paper to be beautiful, creative, empirically/theoretically groundbreaking and containing elegant rhetorical flourishes.
@@ -19,14 +21,18 @@ You should also try and read (and review) as many papers in your subfield as is 
 
 ## Tips for the Writing Process
 
-Your paper should have ONE CORE IDEA. It can have 2-4 contributions which all serve that one main idea. If there are actually two ideas, make it two papers.
+Your paper should have ONE CORE IDEA.
+It can have 2-4 contributions which all serve that one main idea.
+If there are actually two ideas, make it two papers.
 
 I recommend using git as source control and GitHub's UI for managing section updates in the initial stages of your project when you're drafting sections.
 Once you're in the final edit, Overleaf is a great tool for collaborative editing and sharing with co-authors.
 
 The first draft isn't the last draft, a few rounds of editing (with beta-readers and co-authors) will make your paper much stronger.
 
-You should draft your Abstraction and Introduction before while or before doing your research. This will helps focus the experiments and analysis on the key story of the work. Writing papers is an integral part of the research process, not just a way to communicate the results after the fact.
+You should draft your Abstraction and Introduction before while or before doing your research.
+This will helps focus the experiments and analysis on the key story of the work.
+Writing papers is an integral part of the research process, not just a way to communicate the results after the fact.
 Writing the intro forces you to be clear and focused, to see what you don't understand/can't motivate immediately and opens the dialogue with collaborators who you may not have whiteboarded with.
 
 Before you start writing, it's worth having a rough notes file with all the things that you want to say and experiments that you want to run.
@@ -107,4 +113,6 @@ Some reference papers to look at for inspiration include:
 
 ## Contributions
 
-I'm always on the lookout for ways to improve this template, both with formatting and advice on technical writing. If you have any suggestions, feel free to open an issue or a pull request. I'd also love any links to either well-written papers or resources on technical writing that you'd recommend.
+I'm always on the lookout for ways to improve this template, both with formatting and advice on technical writing.
+If you have any suggestions, feel free to open an issue or a pull request.
+I'd also love any links to either well-written papers or resources on technical writing that you'd recommend.
