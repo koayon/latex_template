@@ -2,8 +2,14 @@
 
 This repository contains a LaTeX template for empirical machine learning papers. It's set up so that you can focus on writing the content of your paper, rather than worrying about formatting and provides some opinionated advice for how to structure and conceptualise your paper.
 
+This template should help you effectively and efficiently achieve narrative structure, clarity and coherence.
+Ideally you'd also like your paper to be beautiful, creative, empirically/theoretically groundbreaking and containing elegant rhetorical flourishes.
+We will not necessarily help with those last points and occasionally for very creative works, you might want to break some of the guidelines we suggest.
+Being mentored by a great researcher is probably the best way to learn how to write beautiful papers.
+
 I very much recommend watching [this video](https://www.youtube.com/watch?v=qNlwVGxkG7Q) before you start writing your paper and [this video](https://www.youtube.com/watch?v=a1zDuOPkMSw&pp=ygUVeW91IGFuZCB5b3VyIHJlc2VhcmNo) before you choose your research topic.
 I love [this video](https://www.youtube.com/watch?v=vtIzMaLkCaM&pp=ygUTd3JpdGluZyBlZmZlY3RpdmVseQ%3D%3D) for general writing advice.
+You should also try and read (and review) as many papers in your subfield as is helpful to get a sense of what works and what doesn't.
 
 I recommend using git as source control and GitHub's UI for managing section updates in the initial stages of your project when you're drafting sections.
 Once you're in the final edit, Overleaf is a great tool for collaborative editing and sharing with co-authors.
@@ -25,12 +31,16 @@ Paper Timeline:
 4. Write out a paper outline with collaborators (a whiteboard session is best for this)
 5. Complete experiments whilst drafting the paper using the GitHub UI
 6. Do at least one round of edits for each section with the context of the rest of the paper
-7. Finalise figures, appendices, final edits, LaTeX formatting etc. in Overleaf. Print out the paper and read it aloud to yourself to catch any awkward phrasing.
+7. Share with beta-readers for feedback and do another round of edits
+8. Finalise figures, appendices, final edits, LaTeX formatting etc. in Overleaf. Print out the paper and read it aloud to yourself to catch any awkward phrasing.
 
 Your paper should have ONE CORE IDEA. It can have 2-4 contributions which all serve that one main idea. If there are actually two ideas, make it two papers.
 
 Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation.
-Ensure that there are no "this", "that", "these" where it's not clear what this refers to.
+Write drunk, edit sober.
+Ensure that there are no "this", "that", "these" where it's not clear what "this" refers to (the "naked this").
+
+Remember that confernces typically have an 8 page limit, fewer for workshops. This is a blessing for you - you will need to be concise. Economise your words accordingly, use the appendix for non-critical details. Simplify, always simplify.
 
 The most important parts of the paper for the typical reader are (ordered):
 
@@ -91,6 +101,8 @@ The advice here is based on the following resources:
 - [LaTeX math tips - Amy Tabb](https://amytabb.com/tips/2022/02/15/latex-math-i-newly-learned/)
 - [Ten simple rules for structuring papers - Mensh and Kording](https://www.biorxiv.org/content/10.1101/088278v5.full.pdf)
 - [How To ML Paper - Jakob Foerster](https://www.jakobfoerster.com/how-to-ml-paper)
+- [Writing Tips for PhD Students - John Cochrane](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5f62a398731cc06411b39f48/1600299928487/phd_paper_writing.pdf)
+- [Small Guide To Making Nice Tables - Markus Püschel](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf)
 
 I'm also inspired by my wonderful co-authors Lee Sharkey and Michael Pearce as well as the many other people who have given me feedback on my writing.
 
