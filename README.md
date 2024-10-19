@@ -7,9 +7,19 @@ Ideally you'd also like your paper to be beautiful, creative, empirically/theore
 We will not necessarily help with those last points and occasionally for very creative works, you might want to break some of the guidelines we suggest.
 Being mentored by a great researcher is probably the best way to learn how to write beautiful papers.
 
+## Usage
+
+This project is a template so you can use it to start your own paper with GitHub's template feature.
+
+## To Watch
+
 I very much recommend watching [this video](https://www.youtube.com/watch?v=qNlwVGxkG7Q) before you start writing your paper and [this video](https://www.youtube.com/watch?v=a1zDuOPkMSw&pp=ygUVeW91IGFuZCB5b3VyIHJlc2VhcmNo) before you choose your research topic.
 I love [this video](https://www.youtube.com/watch?v=vtIzMaLkCaM&pp=ygUTd3JpdGluZyBlZmZlY3RpdmVseQ%3D%3D) for general writing advice.
 You should also try and read (and review) as many papers in your subfield as is helpful to get a sense of what works and what doesn't.
+
+## Tips for the Writing Process
+
+Your paper should have ONE CORE IDEA. It can have 2-4 contributions which all serve that one main idea. If there are actually two ideas, make it two papers.
 
 I recommend using git as source control and GitHub's UI for managing section updates in the initial stages of your project when you're drafting sections.
 Once you're in the final edit, Overleaf is a great tool for collaborative editing and sharing with co-authors.
@@ -34,45 +44,25 @@ Paper Timeline:
 7. Share with beta-readers for feedback and do another round of edits
 8. Finalise figures, appendices, final edits, LaTeX formatting etc. in Overleaf. Print out the paper and read it aloud to yourself to catch any awkward phrasing.
 
-Your paper should have ONE CORE IDEA. It can have 2-4 contributions which all serve that one main idea. If there are actually two ideas, make it two papers.
+It's often worth making a structure diagram (cf Sasha Rush/Michael Dean) when you have a first draft.
+
+![alt text](sasha_rush_structure.png)
+
+## Structure
+
+See `parts_of_paper.md` for a detailed breakdown of the parts of a paper and where to focus your time.
+
+![structure](paper_structure.png)
+
+![rules](10_rules.png)
+
+## General Writing Advice
 
 Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation.
 Write drunk, edit sober.
 Ensure that there are no "this", "that", "these" where it's not clear what "this" refers to (the "naked this").
 
-Remember that confernces typically have an 8 page limit, fewer for workshops. This is a blessing for you - you will need to be concise. Economise your words accordingly, use the appendix for non-critical details. Simplify, always simplify.
-
-The most important parts of the paper for the typical reader are (ordered):
-
-- Abstract
-- Key Figure
-- Promo
-- Charts/Tables
-- Introduction
-- Title
-- Body
-- Appendix
-
-The most important parts for someone building on the work are (ordered):
-
-- Code
-- Methods
-- Experimental Setup
-- Method Figure
-- Additional appendix details
-- Other
-
-The most important parts for influencing future work are:
-
-- Abstract
-- Discussion
-- Conclusion (and Future Work)
-- Background
-- Other
-
-Prioritise accordingly.
-
-It's often worth making a structure diagram (Sasha Rush/Michael Dean) when you have a first draft.
+Remember that conferences typically have an 8 page limit, fewer for workshops. This is a blessing for you - you will need to be concise. Economise your words accordingly, use the appendix for non-critical details. Simplify, always simplify.
 
 ## Checklist
 
@@ -115,16 +105,6 @@ Some reference papers to look at for inspiration include:
 - [GPT-Q](https://arxiv.org/pdf/2210.17323)
 - [vec2text](https://arxiv.org/pdf/2310.06816)
 
-## Usage
-
-This project is a template so you can use it to start your own paper with GitHub's template feature.
-
 ## Contributions
 
 I'm always on the lookout for ways to improve this template, both with formatting and advice on technical writing. If you have any suggestions, feel free to open an issue or a pull request. I'd also love any links to either well-written papers or resources on technical writing that you'd recommend.
-
-![structure](paper_structure.png)
-
-![rules](10_rules.png)
-
-![alt text](sasha_rush_structure.png)
