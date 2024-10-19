@@ -1,12 +1,47 @@
+% This provides the narrative for the paper and most people won't make it past this section in terms of reading
+% (they may skip to the pictures later though).
 
+% Aim for a single page.
 
+% Sections:
+% What is the problem
+% Why is it interesting and important (and to whom)?
+% Why is it hard? Does the approach trivially work?
+% Why hasn't it been solved before? How do we reframe the problem to solve it better?
+% What are the key components of the approach? Explain these in a figure.
+
+% If you want to say "much recent interest", "increasingly important" etc. its good to have recent citations to back this up.
+
+% We want to get across:
 % WHY IS IT NOVEL
 % WHY IS IT IMPORTANT
 % REMOVE EVERYTHING ELSE
+% Don't beat around the bush; if the point is "A, therefore B" (where B is some good fact about your work), then say that, rather than being humble and just pointing out A.
+% Make sure the importance of the contribution is clear.
 
 % EXPLAINING THE PROBLEM, WHY IT MATTERS AND THE SOLUTION
 % THE KEY FIGURE
 
+% If you can write an amazing first sentence, this is often worth it.
+% E.g. Barlow (1961): “A wing would be a most mystifying structure if one did not know that birds flew.”
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}{0.55\linewidth}
+      \centering
+      % If you want to frame the image, uncomment the next line and comment out the original \includegraphics line
+      % \fbox{\includegraphics[width=\linewidth]{assets/chart_placeholder.png}}
+      \includegraphics[width=\linewidth]{assets/chart_placeholder.png}
+  \end{minipage}
+\caption{Well-designed pull/hook figure on page 1 or 2 to bring the reader in and convey the central point of the paper}
+\label{fig:hook_figure}
+\end{figure}
+
+% It's often nice to introduce a running example here which
+
+\subsection{Summary of Contributions}
+\label{contributionsummary}
+% - tell the reader why they should care about a paper right away, possibly even doing it explicitly
 
 Our contributions are as follows:
 
@@ -20,11 +55,23 @@ Our contributions are as follows:
 
 \end{itemize}
 
-% IMPORTANCE: SAEs suffer from no Adaptive Compute and Dead Features
-% NOVELTY: OUR METHODS
+% IMPORTANCE: ...
+% NOVELTY: ...
+
+% The introduction is making claims.
+% The body of the paper mainly serves to back up these claims with experimental evidence or theoretical arguments.
+% Ideally here we convey the intuition of the paper, so that people can later follow the details. Simple is good.
+% This is basically "however you'd explain this on a whiteboard (but with better grammar)".
+% Remember your running example!
+% If possible "example -> general problem -> solution".
+
+% Take the most direct route to your idea, don't follow the path that you took to get there.
+
 
 We open-source a reference implementation for the community at [REDACTED].
 
 The remainder of this paper is organized as follows: In \textit{Section 2}, ...
 
 % LINKS ABOVE to the rest of the paper section
+
+% If you don't have someone's attention by now, you've lost them.
