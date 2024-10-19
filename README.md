@@ -44,7 +44,7 @@ Paper Timeline:
 1. Collect some notes on the idea and start talking with collaborators
 2. Do some initial validating experiments
 3. Write the abstract and introduction and share these with collaborators
-4. Write out a paper outline with collaborators (a whiteboard session is best for this). You can use `outline.md` to host this.
+4. Write out a paper outline with collaborators (a whiteboard session is best for this). You can use `notes/outline.md` to host this.
 5. Complete experiments whilst drafting the paper using the GitHub UI
 6. Do at least one round of edits for each section with the context of the rest of the paper
 7. Share with beta-readers for feedback and do another round of edits
@@ -52,15 +52,15 @@ Paper Timeline:
 
 It's often worth making a structure diagram (cf Sasha Rush/Michael Dean) when you have a first draft.
 
-![alt text](sasha_rush_structure.png)
+![alt text](notes/sasha_rush_structure.png)
 
 ## Structure
 
-See `parts_of_paper.md` for a detailed breakdown of the parts of a paper and where to focus your time.
+See `notes/parts_of_paper.md` for a detailed breakdown of the parts of a paper and where to focus your time.
 
-![structure](paper_structure.png)
+![structure](notes/paper_structure.png)
 
-![rules](10_rules.png)
+![rules](notes/10_rules.png)
 
 ## General Writing Advice
 
