@@ -100,7 +100,8 @@ The advice here is based on the following resources:
 - [Writing Tips for PhD Students - John Cochrane](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5f62a398731cc06411b39f48/1600299928487/phd_paper_writing.pdf)
 - [Small Guide To Making Nice Tables - Markus Püschel](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf)
 
-I'm also inspired by my wonderful co-authors Lee Sharkey and Michael Pearce as well as the many other people who have given me feedback on my writing.
+I'm also inspired by my wonderful co-authors Lee Sharkey, Michael Pearce, Evžen Wybitul and Joseph Miller as well as the many other people who have given me feedback on my writing.
+I'm also grateful for the non-technical writing advice I've received from Darren Frost, Anna Archakova, David Perell and others.
 
 ## Reference Papers
 
