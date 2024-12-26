@@ -79,6 +79,33 @@ Here's a checklist of checks before you submit your paper to a conference, works
 - [ ] **Sharing**: Do you have a plan for how you're going to share the work with the community? LessWrong? Twitter? Slack channels?
 - [ ] **Amy Tabb's Checklist**: [here](https://amytabb.com/tips/2019/05/09/basic-paper-submission-checklist/)
 
+## Arxiv Submissions
+
+When submitting your paper to arXiv remember that everything in the .tex files
+will be made publicly available, even if not visible in the pdf, for example any comments that you have.
+To ensure that you strip out any comments that might not be for public consumption you can use the following:
+
+- Run the command: `latexpand submission.tex > stripped.tex`
+- Extract your work into a new folder with just the necessary files:
+  - `stripped.tex`, `references.bib`, style files and assets files.
+- Submit this folder to arxiv
+- (If necessary, get an arxiv sponsor)
+- Then wait for your paper to appear online! 🎉
+
+There are more detailed instructions for arxiv submissions
+[here](https://trevorcampbell.me/html/arxiv.html) and
+[here](https://www.ianhuston.net/2011/03/checklist-for-arxiv-submission/).
+
+## Figures and Charts
+
+For each figure, first write out what you're trying to communicate with it.
+Then make the figure, see if it gets the message across, refine and repeat.
+Once you have the story you want write the caption.
+
+<!-- ## Rebuttals -->
+
+
+
 ## Acknowledgements
 
 The advice here is based on the following resources:
