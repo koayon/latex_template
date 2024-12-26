@@ -1,5 +1,7 @@
 # LaTeX Template for Empirical ML Papers
 
+## About
+
 This repository contains a LaTeX template for empirical machine learning papers.
 The repo is set up so that you can focus on writing the content of your paper, rather than worrying about formatting.
 We also provide some opinionated guidelines for how to structure and conceptualise your paper: each section .tex file has comments on what to include.
@@ -9,9 +11,28 @@ Ideally you'd also like your paper to be beautiful, creative, empirically/theore
 We will not necessarily help with those last points and occasionally for very creative works, you might want to break some of the guidelines we suggest.
 Being mentored by a great researcher is probably the best way to learn how to write beautiful papers.
 
+## Table of Contents
+
+- [About](#about)
+- [Table of Contents](#table-of-contents)
+- [Usage](#usage)
+- [To Watch](#to-watch)
+- [Tips for the Writing Process](#tips-for-the-writing-process)
+- [Structure](#structure)
+- [General Writing Advice](#general-writing-advice)
+- [Checklist](#checklist)
+- [Arxiv Submissions](#arxiv-submissions)
+- [Figures and Charts](#figures-and-charts)
+- [Acknowledgements](#acknowledgements)
+- [Reference Papers](#reference-papers)
+- [Contributions](#contributions)
+
 ## Usage
 
 This project is a template so you can use it to start your own paper with GitHub's template feature.
+
+<!-- > [!IMPORTANT]
+> This is important! -->
 
 ## To Watch
 
@@ -19,7 +40,7 @@ I very much recommend watching [this video](https://www.youtube.com/watch?v=qNlw
 I love [this video](https://www.youtube.com/watch?v=vtIzMaLkCaM&pp=ygUTd3JpdGluZyBlZmZlY3RpdmVseQ%3D%3D) for general writing advice.
 You should also try and read (and review) as many papers in your subfield as is helpful to get a sense of what works and what doesn't.
 
-## Tips for the Writing Process
+## Tips for the Writing Process
 
 Your paper should have ONE CORE IDEA.
 It can have 2-4 contributions which all serve that one main idea.
@@ -126,6 +147,7 @@ The advice here is based on the following resources:
 - [How To ML Paper - Jakob Foerster](https://www.jakobfoerster.com/how-to-ml-paper)
 - [Writing Tips for PhD Students - John Cochrane](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5f62a398731cc06411b39f48/1600299928487/phd_paper_writing.pdf)
 - [Small Guide To Making Nice Tables - Markus Püschel](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf)
+- [ICLR LaTeX Template](https://iclr.cc/Conferences/2025/CallForPapers)
 
 I'm also inspired by my wonderful co-authors Lee Sharkey, Michael Pearce, Evžen Wybitul and Joseph Miller as well as the many other people who have given me feedback on my writing.
 I'm also grateful for the non-technical writing advice I've received from Darren Frost, Anna Archakova, David Perell and others.
@@ -138,6 +160,10 @@ Some reference papers to look at for inspiration include:
 - [Jump-ReLU SAEs](https://arxiv.org/pdf/2407.14435)
 - [GPT-Q](https://arxiv.org/pdf/2210.17323)
 - [vec2text](https://arxiv.org/pdf/2310.06816)
+
+Reference Position Papers:
+
+- [Differentially Private Learning](https://arxiv.org/pdf/2212.06470)
 
 ## Contributions
 
