@@ -1,5 +1,7 @@
 # LaTeX Template for Empirical ML Papers
 
+[Template by Kola Ayonrinde]
+
 ## About
 
 This repository contains a LaTeX template for empirical machine learning papers.
