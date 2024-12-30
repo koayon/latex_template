@@ -6,7 +6,7 @@
 % From the Methods and Experimental Setup section, readers should basically be able to guess exactly the experiments you're going to run.
 
 % MAIN CHART with killer caption (ideally this caption explains the whole paper)
-% EXPLANATION in paragraph.
+% [PARAGRAPH EXPLAINING MAIN CHART]
 
 
 \begin{figure}[h]
@@ -27,11 +27,33 @@
 % We want to show absolute performance, performance relative to baselines and previous methods
 % and performance compared to other methods introduced in this work and/or ablations.
 
-% [TODO: ENTER TABLE TEMPLATE HERE]
+% [CORE TABLE]
+% Use booktabs style for all tables
 
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{lcccc}
+        \hline
+        Method & Metric 1 & Metric 2  & Metric 3 \\
+        \hline
+        Baseline 1 [CITE] & 0.013 & 3.2 & \textbf{0.999} \\
+        Baseline 2 [CITE] & 0.034 & 3.4 & 0.995 \\
+        Method 1 (ours) & \textbf{0.011} & 3.8 & 0.999 \\
+        Method 2 (ours) & 0.012 & 3.6 & 0.999 \\
+    \end{tabular}
+    \caption{Enter caption here!}
+    \label{table:core_table}
+\end{table}
+
+% [PARAGRAPH EXPLAINING TABLE]
 
 
 % SUPPORTING CHARTS
-% EXPLANATIONS in paragraphs.
+% [PARAGRAPH EXPLAINING SUPPORTING CHARTS]
 
 % Each table/chart should show the results of a single experiment.
+% Try to go for at least one chart and one table here.
+% For additional results (either here or the appendix),
+% prefer charts to tables when it's unclear which to choose.
+
+% Where possible include error bars on charts and confidence intervals in tables.
