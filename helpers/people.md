@@ -3,6 +3,7 @@
 ## Collaborators
 
 Collaborators:
+
 - Name(*) - Role
 - ...
 - ...
@@ -10,5 +11,6 @@ Collaborators:
 ## Beta-readers
 
 Beta-readers:
+
 - Name, Purpose of Feedback/Area of Focus [notice time required (days)]
 - ...
