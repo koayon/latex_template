@@ -1,5 +1,17 @@
 # Context
 
+## Deadline
+
+- Venue:
+- Date:
+
+<!-- Optionally
+Pre-venue (e.g. workshop): ...
+Date: ...
+-->
+
+<!-- Check the implications of this for having enough time for polishing writing, sharing with beta-reviewers, having some buffer for surprises -->
+
 ## Target Audience
 
 <!-- Who are the target audience?
