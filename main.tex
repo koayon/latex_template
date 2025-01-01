@@ -34,17 +34,15 @@
 \author{{\hspace{1mm}Kola Ayonrinde} \\
         MATS \\
 	\texttt{koayon@gmail.com} \\
+        % \And
+        % ...
 }
 
 % Authors must not appear in the submitted version. They should be hidden
 % as long as the \iclrfinalcopy macro remains commented out below.
 % Non-anonymous submissions will be rejected without review.
 
-\newcommand{\fix}{\marginpar{FIX}}
-\newcommand{\new}{\marginpar{NEW}}
-
-% It's generally worth making some macros for commonly used notation in your paper here.
-% E.g. \newcommand{\probability}{P}
+\import{paper_sections/}{macros.tex}
 
 % Always pay attention to LaTeX warning lest they get out of hand later.
 
@@ -55,15 +53,6 @@
 \maketitle
 % \thispagestyle{fancy}
 
-\begin{abstract}
-ENTER ABSTRACT HERE.
-% The first sentence/phrase should be something that all readers agree with.
-% The second should be something that many readers would find surprising, or wouldn't have thought about before; but it should follow from (or be supported by) the first sentence.
-% State the problem, your approach and solution, and the main contributions of the paper.
-% Include a number and benchmark in the abstract if you can.
-% Save citations for the body of the paper.
-\end{abstract}
-
 % use \emph{} for emphasis not \textit
 
 % Every section of the paper should tell a story.
@@ -73,10 +62,15 @@ ENTER ABSTRACT HERE.
 % What about this plus the abstract? This is probably 80:20 people.
 % If the answer is no, then update until this is true.
 
+% INTRODUCTORY SECTIONS
+
+\import{paper_sections/}{abstract.tex}
 
 \section{Introduction}
 \label{sec:intro}
 \import{paper_sections/}{introduction.tex}
+
+% EXPLANATORY SECTIONS
 
 \section{Related Work}
 \label{sec:related_work}
@@ -90,6 +84,8 @@ ENTER ABSTRACT HERE.
 \label{sec:methods}
 \import{paper_sections/}{methods.tex}
 
+% EMPIRICAL SECTIONS
+
 \hypertarget{setup}{%
 \section{Experimental Setup}\label{setup}}
 \import{paper_sections/}{experimental_setup.tex}
@@ -101,6 +97,8 @@ ENTER ABSTRACT HERE.
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
 \import{paper_sections/}{discussion.tex}
+
+% CONCLUDING SECTIONS
 
 \hypertarget{conclusion}{%
 \section{Conclusion}\label{conclusion}}
@@ -114,6 +112,8 @@ ENTER ABSTRACT HERE.
 
 \bibliography{references}
 \bibliographystyle{styles/iclr2025_conference}
+
+% APPENDICES
 
 \newpage
 \appendix % This command starts the appendix section

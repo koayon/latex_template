@@ -64,14 +64,17 @@ In general outlining saves much time in the long run - having a P1, P2 --> C sty
 
 Paper Timeline:
 
-1. Collect some notes on the idea and start talking with collaborators
+1. Before the paper: Collect some notes on the idea and start talking with collaborators. You can dump these notes in `helpers/raw_notes.md`.
 2. Do some initial validating experiments
-3. Write the abstract and introduction and share these with collaborators
-4. Write out a paper outline with collaborators (a whiteboard session is best for this). You can use `notes/outline.md` to host this.
-5. Complete experiments whilst drafting the paper using the GitHub UI
-6. Do at least one round of edits for each section with the context of the rest of the paper
-7. Share with beta-readers for feedback and do another round of edits
-8. Finalise figures, appendices, final edits, LaTeX formatting etc. in Overleaf. Print out the paper and read it aloud to yourself to catch any awkward phrasing.
+3. It's okay to bail here if things don't look promising! Not every idea has to become a paper; you can totally pivot to something more worthwhile.
+4. If you decide to go ahead then start filling out the the helpers folder. It can also be helpful to share round a 1-page Google Doc with collaborators to get everyone on the same page (even before the outline).
+5. Write the abstract and introduction and share these with collaborators. These are not set in stone but it helps to have something to ground yourself to.
+6. Write out a paper outline with collaborators (a whiteboard session is best for this). You can use `helpers/outline.md` to host this.
+7. Complete experiments whilst drafting the paper using the GitHub UI
+8. Do at least one round of edits for each section with the context of the rest of the paper
+9. Share with beta-readers for feedback and do another round of edits
+10. Finalise figures, appendices, final edits, LaTeX formatting etc. in Overleaf.
+11. Print out the paper and read it aloud to yourself to catch any awkward phrasing and get ready for your submission.
 
 It's often worth making a structure diagram (cf Sasha Rush/Michael Dean) when you have a first draft.
 
@@ -121,13 +124,17 @@ There are more detailed instructions for arxiv submissions
 
 ## Figures and Charts
 
+Figures and charts are a critical (and often overlooked) part of communicating your idea to readers. They can often be the hooks that give readers a sense of what the takeaways are.
+
 For each figure, first write out what you're trying to communicate with it.
 Then make the figure, see if it gets the message across, refine and repeat.
 Once you have the story you want write the caption.
 
+People are attracted to beauty. Papers with beautiful visuals are more likely to re-read and re-referenced.
+
+<!-- TODO: Add Evzen notes here -->
+
 <!-- ## Rebuttals -->
-
-
 
 ## Acknowledgements
 
