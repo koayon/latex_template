@@ -74,9 +74,10 @@ Paper Timeline:
 4. If you decide to go ahead then start filling out the the helpers folder. It can also be helpful to share round a 1-page Google Doc with collaborators to get everyone on the same page (even before the outline).
 5. Write the abstract and introduction and share these with collaborators. These are not set in stone but it helps to have something to ground yourself to.
 6. Write out a paper outline with collaborators (a whiteboard session is best for this). You can use `helpers/outline.md` to host this.
-7. Complete experiments whilst drafting the paper using the GitHub UI
-8. Once you have a complete first draft, do at least one round of edits for each section with the context of the rest of the paper - the main focus of these edits will be restructuring, shortening, cutting and clarifying in that order 
-10. Share with beta-readers for feedback and do another round of edits - you're now editing for polish
+7. Complete experiments whilst drafting the paper using the GitHub UI - don't worry about references at this stage you can leave placeholders. Writing the paper in order is preferred but if you feel yourself procrastinating the writing, you don't have to write from start to finish - if you knock off an easier section first for some momentum, you still have your outline so you know what you need to come back to. 
+8. Once you have a complete first draft, do at least one round of edits for each section with the context of the rest of the paper - the main focus of these edits will be restructuring, shortening, cutting and clarifying in that order.
+9. Build up your `references.bib` and add the references into the paper
+10. Share with beta-readers for feedback and do another round of edits - you're now editing for polish. Especially focus on the abstract and introduction here. 
 11. Finalise figures, appendices, final edits, LaTeX formatting etc. in Overleaf.
 12. Print out the paper and read it aloud to yourself to catch any awkward phrasing and get ready for your submission.
 
