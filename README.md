@@ -1,4 +1,4 @@
-# LaTeX Template for Empirical ML Papers
+# LaTeX Template for Empirical ML/AI Safety Papers
 
 [Template by Kola Ayonrinde]
 
