@@ -5,8 +5,10 @@
 ## About
 
 This repository contains a LaTeX template for empirical machine learning papers.
-The repo is set up so that you can focus on writing the content of your paper, rather than worrying about formatting.
-We also provide some opinionated guidelines for how to structure and conceptualise your paper: each section .tex file has comments on what to include.
+The repo is set up so that you can focus on writing the content of your paper, rather than worrying about structure and formatting.
+We also provide some opinionated guidelines for how to arrange and conceptualise your paper: each section .tex file has comments on what to include.
+
+The `helpers/` folder contains a series of `.md` files to use before you start writing your paper - detailing the key point, outline and raw notes. 
 
 This template should help you effectively and efficiently achieve narrative structure, clarity and coherence.
 Ideally you'd also like your paper to be beautiful, creative, empirically/theoretically groundbreaking and containing elegant rhetorical flourishes.
