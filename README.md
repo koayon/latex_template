@@ -33,7 +33,7 @@ Being mentored by a great researcher is probably the best way to learn how to wr
 
 ## Usage
 
-This project is a template so you can use it to start your own paper with GitHub's template feature.
+This project is a template so you can use it to start your own paper with GitHub's template feature (at the top right of screen).
 
 <!-- > [!IMPORTANT]
 > This is important! -->
@@ -64,6 +64,8 @@ Before you start writing, it's worth having a rough notes file with all the thin
 Much of this will probably make it into the first draft.
 In general outlining saves much time in the long run - having a P1, P2 --> C style argument written down in your first draft is typically useful.
 
+Outlining is also good because it helps the paper feel concrete
+
 Paper Timeline:
 
 1. Before the paper: Collect some notes on the idea and start talking with collaborators. You can dump these notes in `helpers/raw_notes.md`.
@@ -73,10 +75,10 @@ Paper Timeline:
 5. Write the abstract and introduction and share these with collaborators. These are not set in stone but it helps to have something to ground yourself to.
 6. Write out a paper outline with collaborators (a whiteboard session is best for this). You can use `helpers/outline.md` to host this.
 7. Complete experiments whilst drafting the paper using the GitHub UI
-8. Do at least one round of edits for each section with the context of the rest of the paper
-9. Share with beta-readers for feedback and do another round of edits
-10. Finalise figures, appendices, final edits, LaTeX formatting etc. in Overleaf.
-11. Print out the paper and read it aloud to yourself to catch any awkward phrasing and get ready for your submission.
+8. Once you have a complete first draft, do at least one round of edits for each section with the context of the rest of the paper - the main focus of these edits will be restructuring, shortening, cutting and clarifying in that order 
+10. Share with beta-readers for feedback and do another round of edits - you're now editing for polish
+11. Finalise figures, appendices, final edits, LaTeX formatting etc. in Overleaf.
+12. Print out the paper and read it aloud to yourself to catch any awkward phrasing and get ready for your submission.
 
 It's often worth making a structure diagram (cf Sasha Rush/Michael Dean) when you have a first draft.
 
