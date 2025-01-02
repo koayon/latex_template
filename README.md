@@ -8,7 +8,7 @@ This repository contains a LaTeX template for empirical machine learning papers.
 The repo is set up so that you can focus on writing the content of your paper, rather than worrying about structure and formatting.
 We also provide some opinionated guidelines for how to arrange and conceptualise your paper: each section .tex file has comments on what to include.
 
-The `helpers/` folder contains a series of `.md` files to use before you start writing your paper - detailing the key point, outline and raw notes. 
+The `helpers/` folder contains a series of `.md` files to use before you start writing your paper - detailing the key point, outline and raw notes.
 
 This template should help you effectively and efficiently achieve narrative structure, clarity and coherence.
 Ideally you'd also like your paper to be beautiful, creative, empirically/theoretically groundbreaking and containing elegant rhetorical flourishes.
@@ -51,7 +51,7 @@ It can have 2-4 contributions which all serve that one main idea.
 If there are actually two ideas, make it two papers.
 
 I recommend using git as source control and GitHub's UI for managing section updates in the initial stages of your project when you're drafting sections.
-Once you're in the final edit, Overleaf is a great tool for collaborative editing and sharing with co-authors.
+Once you're in the final edit, Overleaf is a great tool for collaborative real-time editing with co-authors.
 
 The first draft isn't the last draft, a few rounds of editing (with beta-readers and co-authors) will make your paper much stronger.
 
@@ -64,7 +64,7 @@ Before you start writing, it's worth having a rough notes file with all the thin
 Much of this will probably make it into the first draft.
 In general outlining saves much time in the long run - having a P1, P2 --> C style argument written down in your first draft is typically useful.
 
-Outlining is also good because it helps the paper feel concrete
+Outlining is also good because it helps the paper feel concrete!
 
 Paper Timeline:
 
@@ -72,12 +72,12 @@ Paper Timeline:
 2. Do some initial validating experiments
 3. It's okay to bail here if things don't look promising! Not every idea has to become a paper; you can totally pivot to something more worthwhile.
 4. If you decide to go ahead then start filling out the the helpers folder. It can also be helpful to share round a 1-page Google Doc with collaborators to get everyone on the same page (even before the outline).
-5. Write the abstract and introduction and share these with collaborators. These are not set in stone but it helps to have something to ground yourself to.
+5. Write the abstract and introduction and share these with collaborators. These are not set in stone but it helps to have something to ground yourself to. One good way to generate an initial abstract and introduction is to start talking about your paper with a friend, preferably someone who's not in your precise field. Then transcribe the explanation that felt most intuitive to your interlocutor.
 6. Write out a paper outline with collaborators (a whiteboard session is best for this). You can use `helpers/outline.md` to host this.
-7. Complete experiments whilst drafting the paper using the GitHub UI - don't worry about references at this stage you can leave placeholders. Writing the paper in order is preferred but if you feel yourself procrastinating the writing, you don't have to write from start to finish - if you knock off an easier section first for some momentum, you still have your outline so you know what you need to come back to. 
+7. Complete experiments whilst drafting the paper using the GitHub UI - don't worry about references at this stage you can leave placeholders. Writing the paper in order is preferred but if you feel yourself procrastinating the writing, you don't have to write from start to finish - if you knock off an easier section first for some momentum, you still have your outline so you know what you need to come back to.
 8. Once you have a complete first draft, do at least one round of edits for each section with the context of the rest of the paper - the main focus of these edits will be restructuring, shortening, cutting and clarifying in that order.
 9. Build up your `references.bib` and add the references into the paper
-10. Share with beta-readers for feedback and do another round of edits - you're now editing for polish. Especially focus on the abstract and introduction here. 
+10. Share with beta-readers for feedback and do another round of edits - you're now editing for polish. Especially focus on the abstract and introduction here.
 11. Finalise figures, appendices, final edits, LaTeX formatting etc. in Overleaf.
 12. Print out the paper and read it aloud to yourself to catch any awkward phrasing and get ready for your submission.
 
