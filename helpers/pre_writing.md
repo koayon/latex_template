@@ -10,6 +10,11 @@ Pre-venue (e.g. workshop): ...
 Date: ...
 -->
 
+### Working backwards...
+
+- Date for code freeze in the code repo: 
+- Date to share paper with beta-readers:
+
 <!-- Check the implications of this for having enough time for polishing writing, sharing with beta-reviewers, having some buffer for surprises -->
 
 ## Target Audience
