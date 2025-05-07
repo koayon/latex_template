@@ -164,7 +164,7 @@ The advice here is based on the following resources:
 - [ICLR LaTeX Template](https://iclr.cc/Conferences/2025/CallForPapers)
 
 I'm also inspired by my wonderful co-authors Michael Pearce, Lee Sharkey, Louis Jaburi, Evžen Wybitul and Joseph Miller as well as the many other people who have given me feedback on my writing.
-I'm also grateful for the non-technical writing advice I've received from Darren Frost, Anna Archakova, David Perell and others.
+I'm also grateful for the non-technical writing advice I've received from Darren Frost, Anna Archakova, David Perell, Michael Dean and others.
 
 ## Reference Papers
 
