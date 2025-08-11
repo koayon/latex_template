@@ -23,13 +23,18 @@ Date: ...
 Who do you mostly expect to read the full paper?
 What conference/community would you be ideally publishing in?
 Who do you hope the paper gets to for non-technical readers (e.g. policy, other media, other disciplines)?
-How does thinking about the target audience make you change how you're approaching the content and style? -->
+How does thinking about the target audience make you change how you're approaching the content and style? 
+How do you want to change the minds of the target audience? 
+How do you want to change the behaviour of the target audience?
+-->
 
 <!-- You can refer back to the Target Audience when  -->
 
 <!-- - PhD students and industry AI Safety researchers
 - Has some understand of X but doesn't have the necessary background in Y
 - Most people are unlikely to read the whole thing so it's important that the figures, abstract and introduction explain most of the relevant information; similarly the appendix should not contain any vital information for understanding the work. -->
+
+
 
 ## Topic Sentence (Shiny Dime)
 
