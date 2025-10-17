@@ -95,14 +95,21 @@ See `notes/parts_of_paper.md` for a detailed breakdown of the parts of a paper a
 
 ## General Writing Advice
 
-Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation.
+Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation. Ask about every sentence: Is what you’re saying precisely correct?
+
+Split long sentences into two when you can. Use [Hemingway](https://hemingwayapp.com/) for highlighting where you have long sentences. 
+
 Write drunk, edit sober.
 
-Ensure that there are no "this", "that", "these" where it's not clear what "this" refers to (the "naked this").
+Ensure that there are no "this", "that", "these" where it's not clear what "this" refers to (the "naked this"). Similarly for "those" and "it".
 
-Use figures, colour and formatting to clarify and to highlight your core points. Use "A therefore B" syllogisms when you can - laying out the logic explicitly is often helpful for readers. 
+Use figures, colour and formatting to clarify and to highlight your core points. Put an eye-catching figure on the first page and avoid having multiple pages in a row without any figures or pull quotes. 
 
-Remember that conferences typically have an 8 page limit, fewer for workshops. This is a blessing for you - you will need to be concise. Economise your words accordingly, use the appendix for non-critical details. Simplify, always simplify.
+Use "A therefore B" syllogisms when you can - laying out the logic explicitly is often helpful for readers. 
+
+Remember that conferences typically have an 8 page limit, fewer for workshops. This is a blessing for you - you will need to be concise. Economise your words accordingly, use the appendix for non-critical details. Make sure every sentence adds information. Simplify, always simplify.
+
+“There are four parts to the paper: The title, abstract, intro, and rest of the paper. You should spend equal time on each” – Jitendra Malik.
 
 ## Checklist
 
