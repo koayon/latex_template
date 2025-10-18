@@ -42,7 +42,8 @@ This project is a template so you can use it to start your own paper with GitHub
 
 I very much recommend watching [this video](https://www.youtube.com/watch?v=qNlwVGxkG7Q) before you start writing your paper and [this video](https://www.youtube.com/watch?v=a1zDuOPkMSw&pp=ygUVeW91IGFuZCB5b3VyIHJlc2VhcmNo) before you choose your research topic.
 I love [this video](https://www.youtube.com/watch?v=vtIzMaLkCaM&pp=ygUTd3JpdGluZyBlZmZlY3RpdmVseQ%3D%3D) for general writing advice.
-You should also try and read (and review) as many papers in your subfield as is helpful to get a sense of what works and what doesn't.
+
+You should also try and read (and review!) as many papers in your subfield as is helpful to get a sense of what works and what doesn't.
 
 ## Tips for the Writing Process
 
