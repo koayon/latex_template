@@ -148,6 +148,13 @@ Once you have the story you want write the caption.
 
 People are attracted to beauty. Papers with beautiful visuals are more likely to re-read and re-referenced.
 
+For complete papers I'd recommend the "Figures Test". 
+Remove everything from the paper except the title, abstract and figures - 
+how understandable is the story of the paper just from this? 
+Ideally this is enough to get across all the key contributions of your paper.
+If not iterate. 
+
+
 <!-- TODO: Add Evzen notes here -->
 
 <!-- ## Rebuttals -->
