@@ -96,6 +96,11 @@ See `notes/parts_of_paper.md` for a detailed breakdown of the parts of a paper a
 
 ## General Writing Advice
 
+The most important advice for writing on GitHub is USE ONE LINE PER CLAUSE.
+Short lines make edits and diffs super easy to see in the UI. Treat your prose like code and always press enter before your prose wraps round on your editor.
+As a rule of thumb every time you use punctuation you should start a new line; 
+generally even more frequently than this is helpful. 
+
 Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation. Ask about every sentence: Is what you’re saying precisely correct?
 
 Split long sentences into two when you can. Use [Hemingway](https://hemingwayapp.com/) for highlighting where you have long sentences. 
