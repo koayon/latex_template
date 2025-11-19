@@ -52,7 +52,8 @@ It can have 2-4 contributions which all serve that one main idea.
 If there are actually two ideas, make it two papers.
 
 I recommend using git as source control and GitHub's UI for managing section updates in the initial stages of your project when you're drafting sections.
-Once you're in the final edit, Overleaf is a great tool for collaborative real-time editing with co-authors.
+Once you're in the final edit, sending round a pdf in Google Drive allows anyone to comment on your paper in real-time.
+Overleaf can also be a useful tool, though I'd recommend GitHub and Google Drive more.
 
 The first draft isn't the last draft, a few rounds of editing (with beta-readers and co-authors) will make your paper much stronger.
 
@@ -94,12 +95,38 @@ See `notes/parts_of_paper.md` for a detailed breakdown of the parts of a paper a
 
 ![rules](notes/10_rules.png)
 
-## General Writing Advice
+## Writing Papers with GitHub
+
+The way I recommend organising your writing process is the same way that you organise your coding process: 
+using GitHub and their GitHub for code are: 
+1. You can work locally and then merge when you have useful changes
+2. You get a complete history of the repo and can find any previous versions that might be useful
+3. You can leverage the tools of your IDE especially keyboard shortcuts and viewing diffs
+4. Collaborators can review your changes before they enter main. This allows them to improve your edits to the repo
+and ensure that everything that is in the main version of the repo has been verified as a positive update.
+This ensures a higher quality bar and helps issues to be caught early.
+5. You can use comments and suggestions to manage the process in the highly optimised GitHub UI.
+
+All of these same advantages apply to writing papers as much as they apply to code.
+
+Process: 
+1. Clone the repo as you would for code.
+2. Ensure that you have the LaTeX Workshop Extension in VSCode. Also ensure that you have a spellchecker.
+3. Write up the changes that you want to make on a new branch - either adding a new (sub)section or editing a section. As with code, all changes on a branch should be small, localised changes.
+4. Once you've written up the change you want to make check them yourself and then raise a PR. Follow your normal PR process for this.
+5. Ask a collaborator to review and give comments/suggestions.
+6. If you have a advisor/mentor/senior author who's happy to be involved in the writing process then I'd recommend asking them to also review any new subsections added after your collaborator has reviewed (they don't need to review tiny edits).
+7. Repeat until you have a complete paper!
 
 The most important advice for writing on GitHub is USE ONE LINE PER CLAUSE.
 Short lines make edits and diffs super easy to see in the UI. Treat your prose like code and always press enter before your prose wraps round on your editor.
 As a rule of thumb every time you use punctuation you should start a new line; 
 generally even more frequently than this is helpful. 
+
+Another key is to treat main as seriously as you would with a production codebase - nothing substandard goes into main.
+Reviewers holding the line here makes the final edit much smoother as you have done a lot of the iteration before merging each individual section.
+
+## General Writing Advice
 
 Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation. Ask about every sentence: Is what you’re saying precisely correct?
 
