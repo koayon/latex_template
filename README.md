@@ -87,6 +87,17 @@ It's often worth making a structure diagram (cf Sasha Rush/Michael Dean) when yo
 
 ![alt text](notes/sasha_rush_structure.png)
 
+### Keeping the Ball Moving Forwards
+
+Writing a paper is a process that generally takes weeks to months with at least two people.
+Hence one of the core skills to make a project go well is the first author
+being extremely conscious of [keeping the ball moving](https://bengoldhaber.substack.com/p/the-ball).
+Ensuring that the ball isn't static and isn't dropped can be helped by good planning (this template helps you do that),
+having a clear idea of the project ahead of time, conscientous teammates, high energy, frequent whiteboard meetings
+and a deadline.
+However even with all of these good things, the main differentiator is having a first author that is incessantly
+driving things forward, managing the project, keeping all the tasks in their heads and checking in with others.
+
 ## Structure
 
 See `notes/parts_of_paper.md` for a detailed breakdown of the parts of a paper and where to focus your time.
