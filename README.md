@@ -47,6 +47,8 @@ You should also try and read (and review!) as many papers in your subfield as is
 
 ## Tips for the Writing Process
 
+> *The role of writing is not to record the results of research, but is the process itself of research - Alexander Grothendieck*
+
 Your paper should have ONE CORE IDEA.
 It can have 2-4 contributions which all serve that one main idea.
 If there are actually two ideas, make it two papers.
@@ -68,7 +70,7 @@ In general outlining saves much time in the long run - having a P1, P2 --> C sty
 
 Outlining is also good because it helps the paper feel concrete!
 
-Paper Timeline:
+### Paper Timeline
 
 1. Before the paper: Collect some notes on the idea and start talking with collaborators. You can dump these notes in `helpers/raw_notes.md`.
 2. Do some initial validating experiments
