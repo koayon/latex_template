@@ -307,3 +307,5 @@ TSWLatexianTemp*
 
 
 main.pdf
+.qodo
+.DS_Store
