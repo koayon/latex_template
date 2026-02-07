@@ -34,6 +34,18 @@ Clear documentation, accessibility and evidence that your eval can't be gamed ar
 Often evidence that your dataset/benchmark took a lot of manual effort to compile
 is also useful - if not then it's typically a weaker contribution.
 
+Additional advice:
+
+- Be explicit about data provenance, licensing, and consent. Include a short dataset statement or
+   data card with known limitations and intended use.
+- Describe how you avoid leakage, contamination, or shortcut signals (train/test overlap, metadata
+   artifacts, or annotation biases). Show the checks that you ran.
+  - If possible, include a hidden test set or a private leaderboard.
+- Plan for maintenance, ideally by the first author over time.
+- The value in a eval paper is it becoming standardised as a way to distinguish performance.
+  So (possibly even more than other papers) it's very worth spending a lot of effort on
+  socialising your work and ensuring that others use your eval.
+
 Datasets & Benchmarks papers are typically underrated by researchers but are very impactful and
 very highly cited: would recommend researching a lot of impactful papers here and to ensure that
 you can make an impactful contribution!
