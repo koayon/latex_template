@@ -31,3 +31,30 @@ repos:
     rev: 0.8.1
     hooks:
       - id: nbstripout
+
+  # ── LaTeX linting (ChkTeX) ──────────────────────────────────────────
+  - repo: local
+    hooks:
+      - id: chktex
+        name: chktex – LaTeX linter
+        entry: chktex
+        args:
+          - "-q" # quiet – only show warnings
+          - "-l" # use local .chktexrc
+          - ".chktexrc"
+          - "--inputfiles=0" # don't chase \input/\import
+        language: system
+        files: '\.tex$'
+        types: [file]
+
+  # ── LaTeX formatting (tex-fmt) ────────────────────────────────────────
+  # Rust-based, zero-dependency LaTeX formatter
+  # https://github.com/WGUNDERWOOD/tex-fmt
+  - repo: local
+    hooks:
+      - id: tex-fmt
+        name: tex-fmt – LaTeX formatter
+        entry: tex-fmt
+        language: system
+        files: '\.tex$'
+        types: [file]
