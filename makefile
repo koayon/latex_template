@@ -38,12 +38,16 @@ BASE ?= HEAD~1
 ARXIV_DIR ?= .arxiv
 ARXIV_TAR ?= arxiv.tar.gz
 
-.PHONY: pdf clean diff arxiv help
+.PHONY: pdf clean diff arxiv watch wordcount check format help
 
 help:
 	@echo "Targets:"
 	@echo "  pdf                 Build $(PDF) from $(MAIN)"
+	@echo "  watch               Continuously rebuild on file changes"
 	@echo "  clean               Remove LaTeX build artifacts"
+	@echo "  check               Run ChkTeX linter on all .tex files"
+	@echo "  format              Run tex-fmt on all .tex files"
+	@echo "  wordcount           Count words in the paper (excl. comments/commands)"
 	@echo "  diff BASE=<gitref>  Build diff.pdf comparing BASE vs working tree"
 	@echo "  arxiv               Build arxiv-ready .tar.gz (flattened, comments stripped)"
 	@echo ""
@@ -56,6 +60,34 @@ help:
 pdf:
 	@echo "Building $(PDF) from $(MAIN)"
 	$(LATEXMK) $(LATEXMK_FLAGS) $(MAIN)
+
+watch:
+	@echo "Watching $(MAIN) for changes (Ctrl+C to stop)"
+	$(LATEXMK) $(LATEXMK_FLAGS) -pvc $(MAIN)
+
+wordcount:
+	@echo "Word count for $(MAIN) (via texcount):"
+	@texcount -inc -total $(MAIN) 2>/dev/null \
+		|| echo "texcount not found — install with: sudo tlmgr install texcount"
+
+format:
+	@echo "Formatting all .tex files with tex-fmt..."
+	@find . -name '*.tex' \
+		-not -path './.latexdiff/*' \
+		-not -path './.arxiv/*' \
+		-not -path './old_versions/*' \
+		-not -path './styles/*' \
+		-exec tex-fmt {} +
+	@echo "Done."
+
+check:
+	@echo "Running ChkTeX on all .tex files..."
+	@find . -name '*.tex' \
+		-not -path './.latexdiff/*' \
+		-not -path './.arxiv/*' \
+		-not -path './old_versions/*' \
+		-not -path './styles/*' \
+		-exec chktex -q -l .chktexrc --inputfiles=0 {} +
 
 clean:
 	@echo "Cleaning LaTeX artifacts for $(MAIN)"
