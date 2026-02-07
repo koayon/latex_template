@@ -30,3 +30,10 @@ If as you were finishing writing the paper, there's one part that you know you'r
 about, prepare your response early so that you know you can nail it.
 This typically includes running additional experiments or a new ablation so that you've covered your
 bases.
+
+Additional notes:
+
+- Keep the tone calm, appreciative, and factual. You are trying to get the reviewers onside, even if they didn't represent your paper in the best way.
+- Explicitly address every point that the reviewer makes. Don't leave anything out.
+- If you make any changes to the paper, these should be written in a different colour (i.e. red) to make it easy for reviewers to see the diff. And tell the reviewers exactly what you have changed.
+- Promises of future work are cheap - always show evidence and don't say you'll do something "by the camera-ready".
