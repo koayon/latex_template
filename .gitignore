@@ -309,5 +309,7 @@ TSWLatexianTemp*
 main.pdf
 diff.pdf
 .latexdiff/
+.arxiv/
+arxiv.tar.gz
 .qodo
 .DS_Store

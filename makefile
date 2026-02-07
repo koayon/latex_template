@@ -34,18 +34,24 @@ LATEXPAND_FLAGS ?= --expand-usepackage --explain
 DIFF_DIR ?= .latexdiff
 BASE ?= HEAD~1
 
-.PHONY: pdf clean diff help
+# Arxiv settings
+ARXIV_DIR ?= .arxiv
+ARXIV_TAR ?= arxiv.tar.gz
+
+.PHONY: pdf clean diff arxiv help
 
 help:
 	@echo "Targets:"
-	@echo "  pdf                Build $(PDF) from $(MAIN)"
-	@echo "  clean              Remove LaTeX build artifacts"
-	@echo "  diff BASE=<gitref>  Build diff.pdf comparing BASE vs working tree (or current MAIN)"
+	@echo "  pdf                 Build $(PDF) from $(MAIN)"
+	@echo "  clean               Remove LaTeX build artifacts"
+	@echo "  diff BASE=<gitref>  Build diff.pdf comparing BASE vs working tree"
+	@echo "  arxiv               Build arxiv-ready .tar.gz (flattened, comments stripped)"
 	@echo ""
 	@echo "Vars:"
 	@echo "  MAIN=<file.tex>     Main TeX file (default: main.tex)"
 	@echo "  BASE=<gitref>       Git ref for diff (default: HEAD~1)"
 	@echo "  DIFF_DIR=<dir>      Temp directory for diff build (default: .latexdiff)"
+	@echo "  ARXIV_DIR=<dir>     Temp directory for arxiv build (default: .arxiv)"
 
 pdf:
 	@echo "Building $(PDF) from $(MAIN)"
@@ -104,3 +110,55 @@ diff:
 
 	# Clean up temp dir
 	@rm -rf "$(TMP_BASE)"
+
+arxiv:
+	@echo "Preparing arXiv submission from $(MAIN)"
+	@rm -rf $(ARXIV_DIR)
+	@mkdir -p $(ARXIV_DIR)
+
+	# 1. Build the PDF first to ensure .bbl exists
+	$(LATEXMK) $(LATEXMK_FLAGS) $(MAIN)
+
+	# 2. Flatten and strip comments with latexpand
+	$(LATEXPAND) --empty-comments $(MAIN) \
+		| sed 's|{paper_sections/assets/|{assets/|g' \
+		| sed 's|{paper_appendix_sections/assets/|{assets/|g' \
+		| sed 's|{paper_sections/figures/|{figures/|g' \
+		| sed 's|{paper_appendix_sections/figures/|{figures/|g' \
+		| sed 's|{paper_sections/tables/|{tables/|g' \
+		| sed 's|{paper_appendix_sections/tables/|{tables/|g' \
+		> "$(ARXIV_DIR)/$(MAIN)"
+
+	# 3. Copy the .bbl file (arXiv runs pdflatex but not always bibtex)
+	@cp -f main.bbl "$(ARXIV_DIR)/"
+
+	# 4. Copy style files
+	@cp -r styles/ "$(ARXIV_DIR)/styles/"
+
+	# 5. Copy figures, assets, tables
+	@[ -d assets ] && cp -r assets/ "$(ARXIV_DIR)/assets/" || true
+	@[ -d figures ] && cp -r figures/ "$(ARXIV_DIR)/figures/" || true
+	@[ -d tables ] && cp -r tables/ "$(ARXIV_DIR)/tables/" || true
+
+	# 6. Remove .gitkeep files
+	@find "$(ARXIV_DIR)" -name '.gitkeep' -delete
+
+	# 7. Verify the flattened file compiles
+	@echo "Verifying arxiv build compiles..."
+	cd "$(ARXIV_DIR)" && $(LATEXMK) $(LATEXMK_FLAGS) $(MAIN)
+
+	# 8. Clean build artifacts from arxiv dir (keep only source + pdf)
+	cd "$(ARXIV_DIR)" && $(LATEXMK) -c $(MAIN)
+	@rm -f $(ARXIV_DIR)/*.fls $(ARXIV_DIR)/*.fdb_latexmk
+
+	# 9. Create tarball
+	@tar -czf $(ARXIV_TAR) -C $(ARXIV_DIR) .
+	@echo ""
+	@echo "=== arXiv submission ready ==="
+	@echo "  Archive: $(ARXIV_TAR)"
+	@echo "  Contents:"
+	@tar -tzf $(ARXIV_TAR) | head -20
+	@echo "  ..."
+	@echo ""
+	@echo "Upload $(ARXIV_TAR) to https://arxiv.org/submit"
+	@echo "Review $(ARXIV_DIR)/ to inspect the flattened source."
