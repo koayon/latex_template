@@ -20,6 +20,7 @@
 % \usepackage{todonotes}
 \usepackage{amsmath}
 \usepackage{appendix}
+\usepackage{titletoc}         % partial table of contents for appendix
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{import}
@@ -119,7 +120,16 @@
 
 \newpage
 \appendix % This command starts the appendix section
-% \appendixpage
+
+% Mini table of contents for the appendix
+\section*{Appendices}
+\addcontentsline{toc}{section}{Appendices}
+\renewcommand{\contentsname}{} % suppress redundant heading
+{
+  \startcontents[appendix]
+  \printcontents[appendix]{}{1}{\setcounter{tocdepth}{1}}
+}
+\newpage
 
 \hypertarget{appendix1}{%
 \section{Appendix 1}\label{appendix1}}
