@@ -307,5 +307,7 @@ TSWLatexianTemp*
 
 
 main.pdf
+diff.pdf
+.latexdiff/
 .qodo
 .DS_Store

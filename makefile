@@ -27,7 +27,10 @@ LATEXMK_FLAGS ?= -pdf -interaction=nonstopmode -file-line-error -halt-on-error
 # Diff settings
 # latexdiff can struggle with some packages; adjust flags if needed.
 LATEXDIFF ?= latexdiff
-LATEXDIFF_FLAGS ?= --flatten
+LATEXDIFF_FLAGS ?= --exclude-safecmd="hyperref,hypertarget,urlstyle,csname" \
+                   --exclude-textcmd="hyperref,hypertarget"
+LATEXPAND ?= latexpand
+LATEXPAND_FLAGS ?= --expand-usepackage --explain
 DIFF_DIR ?= .latexdiff
 BASE ?= HEAD~1
 
@@ -62,16 +65,42 @@ diff:
 	@echo "Building diff for MAIN=$(MAIN) against BASE=$(BASE)"
 	@mkdir -p $(DIFF_DIR)
 
-	# Export base version of MAIN.tex from git
-	git show "$(BASE):$(MAIN)" > "$(DIFF_DIR)/base.tex"
+	# Export the full repo at BASE into a temp dir so latexpand can resolve \import paths
+	$(eval TMP_BASE := $(shell mktemp -d))
+	git archive "$(BASE)" | tar -x -C "$(TMP_BASE)"
 
-	# Create a latexdiff TeX file (flatten tries to inline \input/\include for robustness)
-	$(LATEXDIFF) $(LATEXDIFF_FLAGS) $(DIFF_DIR)/base.tex $(MAIN) > "$(DIFF_DIR)/diff.tex"
+	# Flatten both versions with latexpand (handles \import, \input, \include)
+	# Then fix up paths that latexpand incorrectly prefixes with the \import directory
+	cd "$(TMP_BASE)" && $(LATEXPAND) $(MAIN) \
+		| sed 's|{paper_sections/assets/|{assets/|g' \
+		| sed 's|{paper_appendix_sections/assets/|{assets/|g' \
+		| sed 's|{paper_sections/figures/|{figures/|g' \
+		| sed 's|{paper_appendix_sections/figures/|{figures/|g' \
+		| sed 's|{paper_sections/tables/|{tables/|g' \
+		| sed 's|{paper_appendix_sections/tables/|{tables/|g' \
+		> "$(CURDIR)/$(DIFF_DIR)/base_flat.tex"
+	$(LATEXPAND) $(MAIN) \
+		| sed 's|{paper_sections/assets/|{assets/|g' \
+		| sed 's|{paper_appendix_sections/assets/|{assets/|g' \
+		| sed 's|{paper_sections/figures/|{figures/|g' \
+		| sed 's|{paper_appendix_sections/figures/|{figures/|g' \
+		| sed 's|{paper_sections/tables/|{tables/|g' \
+		| sed 's|{paper_appendix_sections/tables/|{tables/|g' \
+		> "$(DIFF_DIR)/current_flat.tex"
 
-	# Build diff.pdf
+	# Run latexdiff on the flattened files (no --flatten needed)
+	$(LATEXDIFF) $(LATEXDIFF_FLAGS) \
+		"$(DIFF_DIR)/base_flat.tex" \
+		"$(DIFF_DIR)/current_flat.tex" \
+		> "$(DIFF_DIR)/diff.tex"
+
+	# Build diff.pdf from the project root so relative paths (styles/, assets/) resolve
 	@echo "Compiling diff.pdf"
-	$(LATEXMK) $(LATEXMK_FLAGS) -jobname=diff "$(DIFF_DIR)/diff.tex"
+	$(LATEXMK) $(LATEXMK_FLAGS) -jobname=diff -output-directory=$(DIFF_DIR) "$(DIFF_DIR)/diff.tex"
 
 	# Copy diff.pdf to repo root for convenience
 	@cp -f "$(DIFF_DIR)/diff.pdf" ./diff.pdf
 	@echo "Wrote ./diff.pdf"
+
+	# Clean up temp dir
+	@rm -rf "$(TMP_BASE)"
