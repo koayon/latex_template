@@ -12,7 +12,7 @@ Date: ...
 
 ### Working backwards...
 
-- Date for code freeze in the code repo: 
+- Date for code freeze in the code repo:
 - Date to share paper with beta-readers:
 
 <!-- Check the implications of this for having enough time for polishing writing, sharing with beta-reviewers, having some buffer for surprises -->
@@ -23,8 +23,8 @@ Date: ...
 Who do you mostly expect to read the full paper?
 What conference/community would you be ideally publishing in?
 Who do you hope the paper gets to for non-technical readers (e.g. policy, other media, other disciplines)?
-How does thinking about the target audience make you change how you're approaching the content and style? 
-How do you want to change the minds of the target audience? 
+How does thinking about the target audience make you change how you're approaching the content and style?
+How do you want to change the minds of the target audience?
 How do you want to change the behaviour of the target audience?
 -->
 
@@ -49,16 +49,31 @@ what to leave out etc.
 
 ...
 
-## SPS (Situation, Problem, Solution)
+## Problem-Based Narrative
+
+<!-- Topic = What is this paper about at a high level? -->
 
 <!-- Situation = What's the context that people should know about for reading this?
-Why is this problem important?
-What is the finding of previous work on this topic? -->
+Why is this problem important? -->
 
 <!-- Problem = What is the main problem that you're trying to solve? What had no-one been able to do before? Are there two values that had been in trade-off before?  -->
 
+<!-- Previous Solution = What is the finding of previous work on this topic?
+Where do they fall short? What is the problem with their approach? -->
+
 <!-- Solution = What are you proposing and how does it directly address the problem above? -->
 
+<!-- Narrow Impact of Solution = What do you show? What are the benchmark results etc? -->
+
+<!-- Broad impact of Solution = What are the broader implications of your solution?
+What would solving this problem mean for AI Safety?
+Why should people not in your subfield care?
+What's your theory of change for this research? -->
+
+- **Topic**:
 - **Situation**:
 - **Problem**:
+- **Previous Solution**:
 - **Solution**:
+- **Narrow Impact of Solution**:
+- **Broad Impact of Solution**:
