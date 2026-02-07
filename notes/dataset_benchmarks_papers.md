@@ -23,3 +23,17 @@ Ideally you want to:
 3. Evaluate the existing models on your benchmark and compare their performance. This acts as baselines for future work building on your paper
    1. This is similar to the Results section in an empirical paper.
 4. Add some Discussion and Related Work
+
+If your paper is proposing an LLM eval, then you want to be clear about the
+[Construct that you're evaluating](https://arxiv.org/abs/2511.04703).
+Some advice on how to think about this is given [here](https://arxiv.org/abs/1904.12437?utm_source=chatgpt.com) and [here](https://arxiv.org/abs/2411.12990).
+There are also checklists for Benchmarks papers that you should consult and make sure
+that you meet these criteria: your conference will provide you with a checklist and
+you should also look at [BetterBench](https://arxiv.org/abs/2411.12990)
+Clear documentation, accessibility and evidence that your eval can't be gamed are essential.
+Often evidence that your dataset/benchmark took a lot of manual effort to compile
+is also useful - if not then it's typically a weaker contribution.
+
+Datasets & Benchmarks papers are typically underrated by researchers but are very impactful and
+very highly cited: would recommend researching a lot of impactful papers here and to ensure that
+you can make an impactful contribution!
