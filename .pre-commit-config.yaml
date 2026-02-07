@@ -37,7 +37,7 @@ repos:
     hooks:
       - id: chktex
         name: chktex – LaTeX linter
-        entry: chktex
+        entry: /Library/TeX/texbin/chktex
         args:
           - "-q" # quiet – only show warnings
           - "-l" # use local .chktexrc
