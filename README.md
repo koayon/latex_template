@@ -248,6 +248,9 @@ Some reference papers to look at for inspiration include:
 - [Jump-ReLU SAEs](https://arxiv.org/pdf/2407.14435)
 - [GPT-Q](https://arxiv.org/pdf/2210.17323)
 - [vec2text](https://arxiv.org/pdf/2310.06816)
+- [MP-SAE](https://arxiv.org/abs/2506.03093)
+- [CRL Circuit Breakers](https://arxiv.org/abs/2506.11938)
+
 
 Reference Position Papers:
 
