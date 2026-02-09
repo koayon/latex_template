@@ -62,8 +62,8 @@ Overleaf can also be a useful tool, though I'd recommend GitHub and Google Drive
 
 The first draft isn't the last draft, a few rounds of editing (with beta-readers and co-authors) will make your paper much stronger.
 
-You should draft your Abstraction and Introduction before while or before doing your research.
-This will helps focus the experiments and analysis on the key story of the work.
+You should draft your Abstract and Introduction before while or before doing your research.
+This will help focus the experiments and analysis on the key story of the work.
 Writing papers is an integral part of the research process, not just a way to communicate the results after the fact.
 Writing the intro forces you to be clear and focused, to see what you don't understand/can't motivate immediately and opens the dialogue with collaborators who you may not have whiteboarded with.
 
@@ -72,6 +72,11 @@ Much of this will probably make it into the first draft.
 In general outlining saves much time in the long run - having a P1, P2 --> C style argument written down in your first draft is typically useful.
 
 Outlining is also good because it helps the paper feel concrete!
+
+Spend a seemingly unreasonable amount of time on the title, abstract and first figure.
+These are the most important part of the paper and getting these right will allow you
+to build the rest of the paper around them.
+As a result, I'd suggest that you workshop your title, abstract and figure 1 as much as possible - iterate on them yourself, iterate with your collaborators and then workshop with external readers, even people who aren't experts in your field
 
 ### Paper Timeline
 
@@ -153,7 +158,7 @@ VSCode extensions I recommend are:
 
 ## General Writing Advice
 
-Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation. Ask about every sentence: Is what you’re saying precisely correct?
+Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation. Prefer affirmative sentences to negative ones. Ask about every sentence: Is what you’re saying precisely correct?
 
 Split long sentences into two when you can. Use [Hemingway](https://hemingwayapp.com/) for highlighting where you have long sentences.
 
@@ -167,7 +172,18 @@ Use "A therefore B" syllogisms when you can - laying out the logic explicitly is
 
 Remember that conferences typically have an 8 page limit, fewer for workshops. This is a blessing for you - you will need to be concise. Economise your words accordingly, use the appendix for non-critical details. Make sure every sentence adds information. Simplify, always simplify.
 
+Write to others as you would have others write to you.
+
 “There are four parts to the paper: The title, abstract, intro, and rest of the paper. You should spend equal time on each” – Jitendra Malik.
+
+Open your sentences with familiar units of information;
+push new, complex units of information to the end of the sentence.
+
+Most readers will not remember all the details of your paper:
+if you're fortunate they will remember the key points.
+Imagine that for each section of the paper, the reader will only remember
+[5 words](https://www.lesswrong.com/posts/4ZvJab25tDebB8FGE/you-get-about-five-words).
+You want to ensure that they take away the *right* 5 words.
 
 When you've written a section, read it back over and ask "what was I trying to say here?" Then write that down instead.
 
