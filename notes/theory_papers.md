@@ -7,9 +7,11 @@ I think there are two main structures of theory papers which work well:
 ## Theorem driven
 
 1. Intro
-2. Intuitively here's what we're going to argue and why it matters
-3. Meat - Definitions, Lemma, Proof, Theorem, Proof, Corollary, Proof, Examples
+2. Intuitively here's what we're going to argue and why it matters. With some examples or toy versions of the theorems to give a sense of what's going on.
+3. Meat - Definitions, Lemma, Proof, Theorem, Proof, Corollary, Proof, Examples/Experiment
 4. Discussion - here's why this matters and what the upshot is
+
+This is actually pretty close in spirit to an empirical paper - the theorems are like your hypotheses and the proofs are like your experiments. It's also typical to put the proofs in the appendix instead of in the main paper.
 
 <!-- Cf Demba Ba papers -->
 

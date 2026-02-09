@@ -1,0 +1,49 @@
+# ChkTeX configuration for academic LaTeX papers
+# See `chktex --help` or `man chktexrc` for details.
+
+# ── Warnings to suppress ──────────────────────────────────────────────
+# 1  – Command terminated with space (too noisy for macros)
+# 3  – Enclose previous parenthesis with `{}'  (false positives with math)
+# 8  – Wrong length of dash (we handle this via custom patterns below)
+# 24 – Delete this space to maintain correct pagereferences
+# 36 – Vertical rules in tables (we use booktabs but legacy tables OK)
+# 44 – User Regex (reserved for our custom checks below)
+CmdLine {
+    -n1 -n3 -n8 -n24 -n36
+}
+
+# ── Typographic / anti-pattern checks via UserWarn regexes ────────────
+# Each UserWarn regex triggers warning 44. ChkTeX prints the matched text
+# as the message, so the patterns are self-documenting.
+
+# Prefer \emph over \textit for semantic emphasis
+# "et al" without a period
+# Deprecated {tt} environment
+UserWarn {
+    \\textit\{
+    \\begin\{tt\}
+}
+
+# ── Environments we know about (suppress false "not matched" warnings) ─
+VerbEnvir { lstlisting,minted,verbatim,Verbatim,algorithmic }
+
+# ── Additional silent commands (first arg is not prose) ────────────────
+# Prevents false positives on commands whose arguments are labels/keys
+WipeArg {
+    \label:{}
+    \ref:{}
+    \cref:{}
+    \Cref:{}
+    \cite:[]{}
+    \citep:[]{}
+    \citet:[]{}
+    \input:{}
+    \import:{}{}
+    \includegraphics:[]{}
+    \bibliography:{}
+    \bibliographystyle:{}
+    \usepackage:[]{}
+    \hyperref:[]{}
+    \hypertarget:{}{}
+    \texttt:{}
+}

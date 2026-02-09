@@ -22,7 +22,10 @@ Being mentored by a great researcher is probably the best way to learn how to wr
 - [Usage](#usage)
 - [To Watch](#to-watch)
 - [Tips for the Writing Process](#tips-for-the-writing-process)
+  - [Paper Timeline](#paper-timeline)
+  - [Keeping the Ball Moving Forwards](#keeping-the-ball-moving-forwards)
 - [Structure](#structure)
+- [Writing Papers with GitHub](#writing-papers-with-github)
 - [General Writing Advice](#general-writing-advice)
 - [Checklist](#checklist)
 - [Arxiv Submissions](#arxiv-submissions)
@@ -59,8 +62,8 @@ Overleaf can also be a useful tool, though I'd recommend GitHub and Google Drive
 
 The first draft isn't the last draft, a few rounds of editing (with beta-readers and co-authors) will make your paper much stronger.
 
-You should draft your Abstraction and Introduction before while or before doing your research.
-This will helps focus the experiments and analysis on the key story of the work.
+You should draft your Abstract and Introduction while or before doing your research.
+This will help focus the experiments and analysis on the key story of the work.
 Writing papers is an integral part of the research process, not just a way to communicate the results after the fact.
 Writing the intro forces you to be clear and focused, to see what you don't understand/can't motivate immediately and opens the dialogue with collaborators who you may not have whiteboarded with.
 
@@ -70,12 +73,17 @@ In general outlining saves much time in the long run - having a P1, P2 --> C sty
 
 Outlining is also good because it helps the paper feel concrete!
 
+Spend a seemingly unreasonable amount of time on the title, abstract and first figure.
+These are the most important part of the paper and getting these right will allow you
+to build the rest of the paper around them.
+As a result, I'd suggest that you workshop your title, abstract and figure 1 as much as possible - iterate on them yourself, iterate with your collaborators and then workshop with external readers, even people who aren't experts in your field
+
 ### Paper Timeline
 
 1. Before the paper: Collect some notes on the idea and start talking with collaborators. You can dump these notes in `helpers/raw_notes.md`.
 2. Do some initial validating experiments
 3. It's okay to bail here if things don't look promising! Not every idea has to become a paper; you can totally pivot to something more worthwhile.
-4. If you decide to go ahead then start filling out the the helpers folder. It can also be helpful to share round a 1-page Google Doc with collaborators to get everyone on the same page (even before the outline). The core idea here is, like in chess, to start with the end in mind. It's much easier to scope a project and realise what experiments are important when you can imagine how they look in the final paper. 
+4. If you decide to go ahead then start filling out the the helpers folder. It can also be helpful to share round a 1-page Google Doc with collaborators to get everyone on the same page (even before the outline). The core idea here is, like in chess, to start with the end in mind. It's much easier to scope a project and realise what experiments are important when you can imagine how they look in the final paper.
 5. Write the abstract and introduction and share these with collaborators. These are not set in stone but it helps to have something to ground yourself to. One good way to generate an initial abstract and introduction is to start talking about your paper with a friend, preferably someone who's not in your precise field. Then transcribe the explanation that felt most intuitive to your interlocutor.
 6. Write out a paper outline with collaborators (a whiteboard session is best for this). You can use `helpers/outline.md` to host this.
 7. Complete experiments whilst drafting the paper using the GitHub UI - don't worry about references at this stage you can leave placeholders. Writing the paper in order is preferred but if you feel yourself procrastinating the writing, you don't have to write from start to finish - if you knock off an easier section first for some momentum, you still have your outline so you know what you need to come back to.
@@ -110,8 +118,10 @@ See `notes/parts_of_paper.md` for a detailed breakdown of the parts of a paper a
 
 ## Writing Papers with GitHub
 
-The way I recommend organising your writing process is the same way that you organise your coding process: 
-using GitHub and their GitHub for code are: 
+The way I recommend organising your writing process in the same way that you organise your coding process:
+using GitHub and Pull Requests.
+The advantages of using GitHub for code are:
+
 1. You can work locally and then merge when you have useful changes
 2. You get a complete history of the repo and can find any previous versions that might be useful
 3. You can leverage the tools of your IDE especially keyboard shortcuts and viewing diffs
@@ -122,7 +132,8 @@ This ensures a higher quality bar and helps issues to be caught early.
 
 All of these same advantages apply to writing papers as much as they apply to code.
 
-Process: 
+Process:
+
 1. Clone the repo as you would for code.
 2. Ensure that you have the LaTeX Workshop Extension in VSCode. Also ensure that you have a spellchecker.
 3. Write up the changes that you want to make on a new branch - either adding a new (sub)section or editing a section. As with code, all changes on a branch should be small, localised changes.
@@ -133,29 +144,49 @@ Process:
 
 The most important advice for writing on GitHub is USE ONE LINE PER CLAUSE.
 Short lines make edits and diffs super easy to see in the UI. Treat your prose like code and always press enter before your prose wraps round on your editor.
-As a rule of thumb every time you use punctuation you should start a new line; 
-generally even more frequently than this is helpful. 
+As a rule of thumb every time you use punctuation you should start a new line;
+generally even more frequently than this is helpful.
 
 Another key is to treat main as seriously as you would with a production codebase - nothing substandard goes into main.
 Reviewers holding the line here makes the final edit much smoother as you have done a lot of the iteration before merging each individual section.
 
+VSCode extensions I recommend are:
+
+- LaTeX Workspace (general tools)
+- LTeX (spell checker)
+- Error Lens (surfaces LaTeX Errors)
+- LaTeX Utilities (word count etc)
+
 ## General Writing Advice
 
-Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation. Ask about every sentence: Is what you’re saying precisely correct?
+Regular writing advice applies: keep sentences short, use active voice, avoid jargon, use simple words, use the same word for the same concept, parallelism across sentence/section structures makes things easier to read, cite generously, when you're sharing an opinion make it clear that it's speculation. Prefer affirmative sentences to negative ones. Ask about every sentence: Is what you’re saying precisely correct?
 
-Split long sentences into two when you can. Use [Hemingway](https://hemingwayapp.com/) for highlighting where you have long sentences. 
+Split long sentences into two when you can. Use [Hemingway](https://hemingwayapp.com/) for highlighting where you have long sentences.
 
 Write drunk, edit sober.
 
 Ensure that there are no "this", "that", "these" where it's not clear what "this" refers to (the "naked this"). Similarly for "those" and "it".
 
-Use figures, colour and formatting to clarify and to highlight your core points. Put an eye-catching figure on the first page and avoid having multiple pages in a row without any figures or pull quotes. 
+Use figures, colour and formatting to clarify and to highlight your core points. Put an eye-catching figure on the first page and avoid having multiple pages in a row without any figures or pull quotes.
 
-Use "A therefore B" syllogisms when you can - laying out the logic explicitly is often helpful for readers. 
+Use "A therefore B" syllogisms when you can - laying out the logic explicitly is often helpful for readers.
 
 Remember that conferences typically have an 8 page limit, fewer for workshops. This is a blessing for you - you will need to be concise. Economise your words accordingly, use the appendix for non-critical details. Make sure every sentence adds information. Simplify, always simplify.
 
+Write to others as you would have others write to you.
+
 “There are four parts to the paper: The title, abstract, intro, and rest of the paper. You should spend equal time on each” – Jitendra Malik.
+
+Open your sentences with familiar units of information;
+push new, complex units of information to the end of the sentence.
+
+Most readers will not remember all the details of your paper:
+if you're fortunate they will remember the key points.
+Imagine that for each section of the paper, the reader will only remember
+[5 words](https://www.lesswrong.com/posts/4ZvJab25tDebB8FGE/you-get-about-five-words).
+You want to ensure that they take away the *right* 5 words.
+
+When you've written a section, read it back over and ask "what was I trying to say here?" Then write that down instead.
 
 ## Checklist
 
@@ -193,11 +224,11 @@ Once you have the story you want write the caption.
 
 People are attracted to beauty. Papers with beautiful visuals are more likely to re-read and re-referenced.
 
-For complete papers I'd recommend the "Figures Test". 
-Remove everything from the paper except the title, abstract and figures - 
-how understandable is the story of the paper just from this? 
+For complete papers I'd recommend the "Figures Test".
+Remove everything from the paper except the title, abstract and figures -
+how understandable is the story of the paper just from this?
 Ideally this is enough to get across all the key contributions of your paper.
-If not, iterate. 
+If not, iterate.
 
 <!-- TODO: Add Evzen notes here -->
 
@@ -216,7 +247,7 @@ The advice here is based on the following resources:
 - [Heuristics for Scientific Writing - Zachary C. Lipton](https://www.approximatelycorrect.com/2018/01/29/heuristics-technical-scientific-writing-machine-learning-perspective/)
 - [Paper Template - Alex Loftus](https://github.com/loftusa/paper_template)
 - [Scientific Writing Tips - Amy Tabb](https://amytabb.com/tips/2019/12/04/listicle-scientist-tips/)
-- Paper Writing Session from Gavin Leach (no link)
+- Paper Writing Session - Gavin Leach (no link)
 - [Responding to Peer Review - Matt Might](https://matt.might.net/articles/peer-review-rebuttals/)
 - [LaTeX math tips - Amy Tabb](https://amytabb.com/tips/2022/02/15/latex-math-i-newly-learned/)
 - [Ten simple rules for structuring papers - Mensh and Kording](https://www.biorxiv.org/content/10.1101/088278v5.full.pdf)
@@ -224,6 +255,9 @@ The advice here is based on the following resources:
 - [Writing Tips for PhD Students - John Cochrane](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5f62a398731cc06411b39f48/1600299928487/phd_paper_writing.pdf)
 - [Small Guide To Making Nice Tables - Markus Püschel](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf)
 - [ICLR LaTeX Template](https://iclr.cc/Conferences/2025/CallForPapers)
+- [Learning by Writing - Holden Karnofsky](https://www.cold-takes.com/learning-by-writing/)
+- [Putting Ideas Into Words - Paul Graham](https://paulgraham.com/words.html)
+- [On Writing - Terry Tao](https://terrytao.wordpress.com/advice-on-writing-papers/)
 
 I'm also inspired by my wonderful co-authors Michael Pearce, Lee Sharkey, Louis Jaburi, Evžen Wybitul and Joseph Miller as well as the many other people who have given me feedback on my writing.
 I'm also grateful for the non-technical writing advice I've received from Darren Frost, Anna Archakova, David Perell, Michael Dean and others.
@@ -236,6 +270,9 @@ Some reference papers to look at for inspiration include:
 - [Jump-ReLU SAEs](https://arxiv.org/pdf/2407.14435)
 - [GPT-Q](https://arxiv.org/pdf/2210.17323)
 - [vec2text](https://arxiv.org/pdf/2310.06816)
+- [MP-SAE](https://arxiv.org/abs/2506.03093)
+- [CRL Circuit Breakers](https://arxiv.org/abs/2506.11938)
+
 
 Reference Position Papers:
 
