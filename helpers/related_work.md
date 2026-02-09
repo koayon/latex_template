@@ -1,6 +1,6 @@
 # Related Work
 
-When compiling the Related Work section, you should think of broad categories of papers that you want to comment on and the individual papers that fall within that. Each subsection/paragraph can talk about one field, explain the papers, explain how they relate to your work and differentiation your work from theirs.
+When compiling the Related Work section, you should think of broad categories of papers that you want to comment on and the individual papers that fall within that. Each subsection/paragraph can talk about one field, explain the papers, explain how they relate to your work and differentiate your work from theirs.
 
 This file is structured by sections where you might be papers.
 

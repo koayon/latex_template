@@ -1,6 +1,6 @@
 # Datasets & Benchmarks Papers
 
-Datastes and Benchmarks papers differ from regular empirical papers in that you're not necessarily presenting a method
+Datasets and Benchmarks papers differ from regular empirical papers in that you're not necessarily presenting a method
 or hypothesis and giving evidence for it.
 Instead these papers work as service to the community: allowing others to make progress on some problem that they
 were previously unable to, or highlighting some failure mode that would be good to be improved.

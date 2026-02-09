@@ -62,7 +62,7 @@ Overleaf can also be a useful tool, though I'd recommend GitHub and Google Drive
 
 The first draft isn't the last draft, a few rounds of editing (with beta-readers and co-authors) will make your paper much stronger.
 
-You should draft your Abstract and Introduction before while or before doing your research.
+You should draft your Abstract and Introduction while or before doing your research.
 This will help focus the experiments and analysis on the key story of the work.
 Writing papers is an integral part of the research process, not just a way to communicate the results after the fact.
 Writing the intro forces you to be clear and focused, to see what you don't understand/can't motivate immediately and opens the dialogue with collaborators who you may not have whiteboarded with.
@@ -118,8 +118,9 @@ See `notes/parts_of_paper.md` for a detailed breakdown of the parts of a paper a
 
 ## Writing Papers with GitHub
 
-The way I recommend organising your writing process is the same way that you organise your coding process:
-using GitHub and their GitHub for code are:
+The way I recommend organising your writing process in the same way that you organise your coding process:
+using GitHub and Pull Requests.
+The advantages of using GitHub for code are:
 
 1. You can work locally and then merge when you have useful changes
 2. You get a complete history of the repo and can find any previous versions that might be useful
