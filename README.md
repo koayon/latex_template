@@ -188,6 +188,13 @@ You want to ensure that they take away the *right* 5 words.
 
 When you've written a section, read it back over and ask "what was I trying to say here?" Then write that down instead.
 
+Make something **you** would [**actually**](https://dynomight.substack.com/p/writing-advice) like to read. 
+Consider how many papers that you study deeply and read all the way through compared to the total
+number of papers that appear on arxiv every day or are presented at an ML conference. 
+You should only put your research out if you (when you're being very honest with yourself)
+would wholeheartedly endorse people reading the whole thing. 
+
+
 ## Checklist
 
 Here's a checklist of checks before you submit your paper to a conference, workshop or journal:
