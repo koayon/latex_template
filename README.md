@@ -61,6 +61,7 @@ Once you're in the final edit, sending round a pdf in Google Drive allows anyone
 Overleaf can also be a useful tool, though I'd recommend GitHub and Google Drive more.
 
 The first draft isn't the last draft, a few rounds of editing (with beta-readers and co-authors) will make your paper much stronger.
+Writing is *rewriting* (in response to feedback).
 
 You should draft your Abstract and Introduction while or before doing your research.
 This will help focus the experiments and analysis on the key story of the work.
@@ -193,7 +194,6 @@ Consider how many papers that you study deeply and read all the way through comp
 number of papers that appear on arxiv every day or are presented at an ML conference. 
 You should only put your research out if you (when you're being very honest with yourself)
 would wholeheartedly endorse people reading the whole thing. 
-
 
 ## Checklist
 
