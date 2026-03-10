@@ -265,7 +265,8 @@ The advice here is based on the following resources:
 - [Learning by Writing - Holden Karnofsky](https://www.cold-takes.com/learning-by-writing/)
 - [Putting Ideas Into Words - Paul Graham](https://paulgraham.com/words.html)
 - [On Writing - Terry Tao](https://terrytao.wordpress.com/advice-on-writing-papers/)
-- [Michael Nielsen - Notes on Writing](https://github.com/mnielsen/notes-on-writing/blob/master/notes_on_writing.md)
+- [Notes on Writing - Michael Nielsen](https://github.com/mnielsen/notes-on-writing/blob/master/notes_on_writing.md)
+- [How To Win A Best Paper Award - Nicholas Carlini](https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html)
 
 I'm also inspired by my wonderful co-authors Michael Pearce, Lee Sharkey, Louis Jaburi, Evžen Wybitul and Joseph Miller as well as the many other people who have given me feedback on my writing.
 I'm also grateful for the non-technical writing advice I've received from Darren Frost, Anna Archakova, David Perell, Michael Dean and others.
