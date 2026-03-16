@@ -36,19 +36,6 @@ How do you want to change the behaviour of the target audience?
 
 
 
-## Topic Sentence (Shiny Dime)
-
-<!--
-Analyse this and then rewrite and then rewrite again.
-The shiny dime is the best thing to work out with co-authors
-with a whiteboard and an extended discussion.
-Once you have that its much easier to decide what to include
-in the paper, what experiments to run, where to put emphasis,
-what to leave out etc.
--->
-
-...
-
 ## Problem-Based Narrative
 
 <!-- Topic = What is this paper about at a high level? -->
@@ -77,3 +64,17 @@ What's your theory of change for this research? -->
 - **Solution**:
 - **Narrow Impact of Solution**:
 - **Broad Impact of Solution**:
+
+
+## Topic Sentence (Shiny Dime)
+
+<!--
+Analyse this and then rewrite and then rewrite again.
+The shiny dime is the best thing to work out with co-authors
+with a whiteboard and an extended discussion.
+Once you have that its much easier to decide what to include
+in the paper, what experiments to run, where to put emphasis,
+what to leave out etc.
+-->
+
+...
