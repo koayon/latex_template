@@ -11,7 +11,7 @@ To do these jobs successfully, given the importance of the abstract, the typical
 
 ## Stages of Writing Your Abstract
 
-### First Draft
+### First Draft
 
 I recommend writing the first version of the abstract very early: after you’ve written your pre_writing and outline but before you’ve written any of the paper and before you have all your experiments finished.
 You should then write out the abstract that clearly details how you want to present the paper to the world. There are three main reasons for this. One is that its pretty motivating to know that you have the core story of the paper written down in a concise way that you’re excited about working on. The second is that you can show this abstract to collaborators or beta readers or anyone who wants some context on your project as a tight encapsulation of what you’re working on. The third and main reason is that having an abstract written down is highly focusing - if there are core experiments or writing that you’re about to do that don’t fit with the story of the abstract that fact should be highly obvious and jarring to you. You then have two options:
@@ -19,7 +19,7 @@ You should then write out the abstract that clearly details how you want to pres
 2. Or, engage in the work and then amend your abstract to note that you’ve changed the story
 This means that you don’t unthinkingly do work that won’t be useful to your paper or will be confusing to your main narrative.
 
-### Writing the paper
+### Writing the paper
 
 Mostly when you’re writing the paper, you should leave the abstract alone and just have it as a guide like your outline.
 
