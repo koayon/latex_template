@@ -168,7 +168,9 @@ Write drunk, edit sober.
 
 Ensure that there are no "this", "that", "these" where it's not clear what "this" refers to (the "naked this"). Similarly for "those" and "it".
 
-Use figures, colour and formatting to clarify and to highlight your core points. Put an eye-catching figure on the first page and avoid having multiple pages in a row without any figures or pull quotes.
+Use figures, colour and formatting to clarify and to highlight your core points. Put an eye-catching figure on the first page and avoid having multiple pages in a row without any figures or charts. 
+Other formatting elemenets that can break up paragraphs include tables, colour, bulleted/numbered lists and pull quotes/boxes.
+Bolding and italics should be used sparingly. 
 
 Use "A therefore B" syllogisms when you can - laying out the logic explicitly is often helpful for readers.
 
@@ -194,6 +196,19 @@ Consider how many papers that you study deeply and read all the way through comp
 number of papers that appear on arxiv every day or are presented at an ML conference. 
 You should only put your research out if you (when you're being very honest with yourself)
 would wholeheartedly endorse people reading the whole thing. 
+
+## Reader Experience
+
+Research papers aim to change a reader's mind on something of importance and action-relevance. 
+All of your writing should be in service of getting your ideas to the people that your audience in a way that they will understand.
+
+In the same way that businesses can only be successful if they care about their customers, papers can only be successful if they care deeply about their readers. You should be reader-obssessed.
+Think carefully about the reader experience: 
+- Meet readers where they're at when they arrive at your paper
+- Guide your readers through the paper and reduce the learning curve as much as possible
+- Say exactly what you mean: don't make readers have to study the tea leaves to get your point
+- Put examples and toy results and the top; state theorems informally before proving them formally; give payoff with implications before you dive into heavy details
+- [Use the introduction to “sell” the key points of your paper](https://terrytao.wordpress.com/advice-on-writing-papers/use-the-introduction-to-%E2%80%9Csell%E2%80%9D-the-key-points-of-your-paper/)
 
 ## Checklist
 
