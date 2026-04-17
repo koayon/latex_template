@@ -1,6 +1,8 @@
 # LaTeX Template for Empirical ML/AI Safety Papers
 
-[Template by Kola Ayonrinde]
+[Template by Kola Ayonrinde.] 
+
+If you use this project please star the repo and add it to the Acknowledgements in your paper so that I can track the impact of this repo.
 
 ## About
 
